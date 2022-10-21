@@ -14,6 +14,7 @@
 		FA76D53F2902586D00A63AEF /* Pet1_YoN_chooser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA76D53D2902586D00A63AEF /* Pet1_YoN_chooser.xcdatamodeld */; };
 		FA76D5412902587200A63AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA76D5402902587200A63AEF /* Assets.xcassets */; };
 		FA76D5442902587200A63AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76D5422902587200A63AEF /* LaunchScreen.storyboard */; };
+		FA78CB2829027FB9003599F6 /* spinning-coin-gif-11.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA78CB2729027FB9003599F6 /* spinning-coin-gif-11.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA76D5402902587200A63AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA76D5432902587200A63AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA76D5452902587200A63AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA78CB2729027FB9003599F6 /* spinning-coin-gif-11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "spinning-coin-gif-11.gif"; path = "../../../../../Downloads/spinning-coin-gif-11.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				FA76D5342902586D00A63AEF /* AppDelegate.swift */,
+				FA78CB2729027FB9003599F6 /* spinning-coin-gif-11.gif */,
 				FA76D5362902586D00A63AEF /* SceneDelegate.swift */,
 				FA76D5382902586D00A63AEF /* ViewController.swift */,
 				FA76D53A2902586D00A63AEF /* Main.storyboard */,
@@ -130,6 +133,7 @@
 			files = (
 				FA76D5442902587200A63AEF /* LaunchScreen.storyboard in Resources */,
 				FA76D5412902587200A63AEF /* Assets.xcassets in Resources */,
+				FA78CB2829027FB9003599F6 /* spinning-coin-gif-11.gif in Resources */,
 				FA76D53C2902586D00A63AEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
