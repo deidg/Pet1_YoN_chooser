@@ -8,35 +8,38 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
-    @IBOutlet var imageVIew: UIImageView!
-    @IBOutlet var imageFace: UIImageView!
-    @IBOutlet var imageTail: UIImageView!
+
+
+
+
+
+//    label.text = "YES button pressed"
     
-    @IBOutlet var textField: UITextField!
-    
-//    @IBAction func yesButton(_ sender: UIButton) {
-//    }
+//        imageVIew.image = UIImage(name: "1euro_avers.jpg")
+//        let imageViewCoin = "1euro_avers"
+//        let image = UIImage(named: imageViewCoin)
+//        let imageVIew = UIImageView(image: image)
+//}
 //       var yesButtonPressed = UIButton()
 //    yesButtonPressed.pressesBegan(_, with: <#T##UIPressesEvent?#>)
     
-    @IBAction func noButton(_ sender: UIButton) {
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageFace.layer.cornerRadius = 50
-        imageTail.layer.cornerRadius = 50
+//        imageFace.layer.cornerRadius = 50
+//        imageTail.layer.cornerRadius = 50
+//        label.text = "ответ"
+//        imageVIew.isHidden = false
+        
     }
 //    let imageMain = UIImage(named: "animated_teaser")
     
-//    func buttonPressed() {
+//    func buttonPressed(_ sender: UIButton) {
+
 //
-//        func yesButton() {
-//            let yesButtonPressed = UIButton()
-//            if yesButtonPressed.
-//        }
-//    }
 }
 
 // QZs$wB?kDnw8
@@ -66,4 +69,4 @@ class ViewController: UIViewController {
 //        gifImageView.animationImages = images
 //        return gifImageView
 //    }
-//}
+
