@@ -9,26 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var imageMainVC: UIImageView!
-    
-    @IBOutlet var headsImage: UIImageView!
-    @IBOutlet var tailsImage: UIImageView!
-    
-    
-    @IBAction func yesButton(_ sender: UIButton) {
-    }
-    @IBAction func noButton(_ sender: UIButton) {
-    }
+//    @IBOutlet var headsImage: UIImageView!
+//    @IBOutlet var tailsImage: UIImageView!
+//
+//
+//    @IBAction func yesButton(_ sender: UIButton) {
+//    }
+//    @IBAction func noButton(_ sender: UIButton) {
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        
-        
     }
-
+//    let imageMain = UIImage(named: "animated_teaser")
+    
 
 }
 
