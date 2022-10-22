@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func yesButton(_ sender: UIButton) {
-        label.text = "YES button pressed"
+//        randomMechanism()
+        label.text = "\(randomMechanism)
+//        label.text = "YES button pressed"
         image.isHidden = true
     }
     
@@ -31,34 +33,70 @@ class ViewController: UIViewController {
     }
     
     
-    
-    //        imageVIew.image = UIImage(name: "1euro_avers.jpg")
-    //        let imageViewCoin = "1euro_avers"
-    //        let image = UIImage(named: imageViewCoin)
-    //        let imageVIew = UIImageView(image: image)
-    //}
-    //       var yesButtonPressed = UIButton()
-    //    yesButtonPressed.pressesBegan(_, with: <#T##UIPressesEvent?#>)
+//    
+////
+//    let image = UIImageView() {
+//        image.image = UIImage(named: "2euro_250_avers")
+////            let image = UIImageView(frame: .zero)
+//        self.image.image = UIImage(named: "2euro_Spain_250_reverse")
+//            image.contentMode = .scaleToFill
+//            image.translatesAutoresizingMaskIntoConstraints = false
+//            return image
+//        }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imageFace.image = UIImage(named: "2euro_250_avers")
+//        imageFace.backgroundColor = UIColor(red: 188/255, green: 227/255, blue: 214/255, alpha: 1)
         imageTail.image = UIImage(named: "2euro_Spain_250_reverse")
-//        imageFace.layer.cornerRadius = 50
-//        imageTail.layer.cornerRadius = 50
+//        imageTail.backgroundColor = UIColor(red: 188/255, green: 227/255, blue: 214/255, alpha: 1)
+        imageFace.layer.cornerRadius = 50
+        imageTail.layer.cornerRadius = 50
         textLabel()
         image.image = UIImage(named: "2euro_250_avers")
+        image.image = UIImage(named: "2euro_Spain_250_reverse")
+
+        
+        
+        //label.isHidden = false
+        //
+//        if yesButton. {
+//        case 0:
+//            label.text = "The first segment is selected"
+//            label.textColor = .red
+//        case 1:
+//            label.text = "The second segment is selected"
+//            label.textColor = .blue
+//        case 2:
+//            label.text = "The third segment is selected"
+//            label.textColor = .yellow
+//        default:
+//            print("Smth wrong!")
+//        }
+        
+        
+        
+        
+        
+        
+//        image.image = UIImage(named: "2euro_250_avers")
+//        image.image = UIImage(named: "2euro_Spain_250_reverse")
+//        image.backgroundColor = UIColor(red: 188/255, green: 227/255, blue: 214/255, alpha: 1)
+
+
         //        changeImage()
     }
     
     func textLabel() {
         label.text = "привет"
+//        label.backgroundColor = UIColor(red: 10/255, green: 10/255, blue: 10/255, alpha: 1)
+//
     }
-    
-    func changeImage() {
-        let imageNew = UIImage()
+//
+//    func changeImage() {
+//        let imageNew = UIImage()
 //        let imageView = UIImage("1euro_avers")
 //                let image2 = UIImage(named: imageView)
         //
@@ -76,26 +114,24 @@ class ViewController: UIViewController {
     
     //extension.  code from ya.ru
     
-    //
-    //UIImageView
-    // {
-    //    static func fromGif(frame: CGRect, resourceName: String) -> UIImageView? {
-    //        guard let path = Bundle.main.path(forResource: resourceName, ofType: "gif") else {
-    //            print("Gif does not exist at that path")
-    //            return nil
-    //        }
-    //        let url = URL(fileURLWithPath: path)
-    //        guard let gifData = try? Data(contentsOf: url),
-    //            let source =  CGImageSourceCreateWithData(gifData as CFData, nil) else { return nil }
-    //        var images = [UIImage]()
-    //        let imageCount = CGImageSourceGetCount(source)
-    //        for i in 0 ..< imageCount {
-    //            if let image = CGImageSourceCreateImageAtIndex(source, i, nil) {
-    //                images.append(UIImage(cgImage: image))
-    //            }
-    //        }
-    //        let gifImageView = UIImageView(frame: frame)
-    //        gifImageView.animationImages = images
-    //        return gifImageView
-    //    }
-}
+    
+
+
+
+// выбор варианта картинки
+
+//label.isHidden = false
+//
+//switch segmentedControl.selectedSegmentIndex {
+//case 0:
+//    label.text = "The first segment is selected"
+//    label.textColor = .red
+//case 1:
+//    label.text = "The second segment is selected"
+//    label.textColor = .blue
+//case 2:
+//    label.text = "The third segment is selected"
+//    label.textColor = .yellow
+//default:
+//    print("Smth wrong!")
+//}
