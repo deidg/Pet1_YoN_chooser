@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         imageFace.layer.cornerRadius = 50
         imageTail.layer.cornerRadius = 50
         textLabel()
-        image.image = UIImage(named: "coin 1_head")
+        image.image = UIImage(named: "1euro_avers")
         //        changeImage()
     }
     
