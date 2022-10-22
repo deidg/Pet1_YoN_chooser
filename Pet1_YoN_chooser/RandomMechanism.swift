@@ -10,7 +10,11 @@ import Foundation
 
 
 func randomMechanism() {
-    let names = ["Yes", "No"]
-    let randomResult = names.randomElement()!
+    let names: [String] = ["Yes", "No"]
+
+    //    let names: [String] = ["12", "24", "56", "37", "32", "87"]
+    var randomResult = names.randomElement()!
     print(randomResult)
+    print("randomMachanism  сработал")
 }
+// посмотреть в примерах как возвращать

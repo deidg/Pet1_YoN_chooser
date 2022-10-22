@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2euro_250_avers" translatesAutoresizingMaskIntoConstraints="NO" id="wVB-bY-EhY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2euro_Spain_250_reverse" translatesAutoresizingMaskIntoConstraints="NO" id="wVB-bY-EhY">
                                 <rect key="frame" x="232" y="471" width="91" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7379165888" green="0.8908491731" blue="0.83921098709999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -83,5 +83,6 @@
     </scenes>
     <resources>
         <image name="2euro_250_avers" width="250" height="250"/>
+        <image name="2euro_Spain_250_reverse" width="250" height="250"/>
     </resources>
 </document>

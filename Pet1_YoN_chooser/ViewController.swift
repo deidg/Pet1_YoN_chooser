@@ -18,18 +18,32 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageTail: UIImageView!
     
     
-    
-    
     @IBAction func yesButton(_ sender: UIButton) {
-//        randomMechanism()
-        label.text = "\(randomMechanism)
-//        label.text = "YES button pressed"
-        image.isHidden = true
+        
+        randomMechanism()
+        image.isHidden = false
+        
+        
+        //        label.text = "\(String(describing: randomMechanism))"
+        //        label.text = "YES button pressed"
     }
     
     @IBAction func noButton(_ sender: UIButton) {
-        label.text = "NO button pressed"
+        randomMechanism()
+        
         image.isHidden = false
+
+//        label.text = "\(String(describing: randomMechanism))"
+//        label.text = "NO button pressed"
+//        image.isHidden = false
+//        image.image = UIImage(named: "2euro_Spain_250_reverse")
+
+    }
+//      randomMechanism     randomResult
+    if randomMechanism = "Yes" {
+        image.image = UIImage(named: "2euro_250_avers"
+    } else {
+            image.image = UIImage(named: "2euro_Spain_250_reverse"
     }
     
     
@@ -48,15 +62,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageFace.image = UIImage(named: "2euro_250_avers")
+//        imageFace.image = UIImage(named: "2euro_250_avers")    ok var
 //        imageFace.backgroundColor = UIColor(red: 188/255, green: 227/255, blue: 214/255, alpha: 1)
-        imageTail.image = UIImage(named: "2euro_Spain_250_reverse")
+//        imageTail.image = UIImage(named: "2euro_Spain_250_reverse")  ok var
 //        imageTail.backgroundColor = UIColor(red: 188/255, green: 227/255, blue: 214/255, alpha: 1)
         imageFace.layer.cornerRadius = 50
         imageTail.layer.cornerRadius = 50
         textLabel()
         image.image = UIImage(named: "2euro_250_avers")
-        image.image = UIImage(named: "2euro_Spain_250_reverse")
+        image.isHidden = true
+//        image.image = UIImage(named: "2euro_Spain_250_reverse")
 
         
         
@@ -90,7 +105,7 @@ class ViewController: UIViewController {
     }
     
     func textLabel() {
-        label.text = "привет"
+        label.text = "Привет! Бросай монетку!"
 //        label.backgroundColor = UIColor(red: 10/255, green: 10/255, blue: 10/255, alpha: 1)
 //
     }
