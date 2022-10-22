@@ -36,6 +36,9 @@
                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="35"/>
                                     <attributedString key="attributedSubtitle"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="yesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qYv-QL-zT0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvY-vp-IoQ">
                                 <rect key="frame" x="226" y="627" width="102" height="106"/>
@@ -46,6 +49,9 @@
                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="35"/>
                                     <attributedString key="attributedSubtitle"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="noButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNn-CT-U3W"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIm-Dn-1yd">
                                 <rect key="frame" x="88" y="360" width="207" height="41"/>
@@ -54,10 +60,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KlA-Fc-iHc">
+                                <rect key="frame" x="75" y="105" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.75693386880000002" blue="0.55114750830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.7380586299016223" green="0.89187013260041825" blue="0.83757773179055461" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="image" destination="KlA-Fc-iHc" id="xkq-5O-RCC"/>
+                        <outlet property="imageFace" destination="idF-CB-hea" id="eCF-xY-Tn3"/>
+                        <outlet property="imageTail" destination="wVB-bY-EhY" id="Gol-1q-zR0"/>
+                        <outlet property="label" destination="kIm-Dn-1yd" id="g6z-rk-RIy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
