@@ -44,10 +44,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageFace.layer.cornerRadius = 50
-        imageTail.layer.cornerRadius = 50
+        imageFace.image = UIImage(named: "2euro_250_avers")
+        imageTail.image = UIImage(named: "2euro_Spain_250_reverse")
+//        imageFace.layer.cornerRadius = 50
+//        imageTail.layer.cornerRadius = 50
         textLabel()
-        image.image = UIImage(named: "1euro_avers")
+        image.image = UIImage(named: "2euro_250_avers")
         //        changeImage()
     }
     
