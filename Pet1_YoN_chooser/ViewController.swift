@@ -40,12 +40,10 @@ class ViewController: UIViewController {
 
     }
 //      randomMechanism     randomResult
-    if randomMechanism = "Yes" {
-        image.image = UIImage(named: "2euro_250_avers"
-    } else {
-            image.image = UIImage(named: "2euro_Spain_250_reverse"
-    }
     
+//    if randomMechanism = "Yes" ? []
+   
+//
     
 //    
 ////
@@ -57,8 +55,6 @@ class ViewController: UIViewController {
 //            image.translatesAutoresizingMaskIntoConstraints = false
 //            return image
 //        }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -128,9 +124,13 @@ class ViewController: UIViewController {
     
     
     //extension.  code from ya.ru
+f
     
-    
-
+if randomMechanism = "Yes" {
+    image.image = UIImage(named: "2euro_250_avers")
+} else {
+        image.image = UIImage(named: "2euro_Spain_250_reverse")
+}
 
 
 // выбор варианта картинки
