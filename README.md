@@ -1,10 +1,10 @@
 # Yes or No roulette 
 
-My first app. App helps to make decision.
+My first app (used Storyboard). App helps to make a decision.
 
 ## Description
 
-Click any of two buttons ("Yes", "No) to make a decision. The result will be shown top.
+Click any of two buttons ("Yes", "No) to make a decision. The result will be shown on top.
 
 ## Screenshots
 
